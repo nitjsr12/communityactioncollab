@@ -4,7 +4,8 @@ import React, {useState, useEffect,useRef} from 'react'
 import {Row, Col, Container} from 'react-bootstrap'
 import Image from 'next/image'
 import Slider from "react-slick";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
