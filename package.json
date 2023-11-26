@@ -1,0 +1,30 @@
+{
+  "name": "cac",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "countup": "^1.8.2",
+    "countup.js": "^2.8.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "slick-carousel": "^1.8.1"
+  }
+}
