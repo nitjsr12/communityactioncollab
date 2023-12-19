@@ -9,7 +9,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-
 function HeroBanner() {
   const [rotation, setRotation] = useState(0);
   const sliderRef = useRef(null);
@@ -31,9 +30,9 @@ function HeroBanner() {
 
 
   return (
-<Container className='cac-banner'>
+<Container className=''>
  <Row className='justify-content-center'>
-<Col lg={4} className='d-flex align-items-center'>
+<Col lg={4} className='d-flex align-items-center cac-banner'>
 <Row className="d-flex flex-column ">
 <Col className='m-4'>
 <Image src="/images/cac_Logo.svg" width={214} height={50}/>
@@ -42,7 +41,7 @@ function HeroBanner() {
 <p>…is a dynamic humanitarian emergency platform that builds the resilience of Vulnerable People and their institutions, in their everyday emergencies, and is ready for future humanitarian crises.</p>
 </Col>
 <Col>
-<button className="btn b-banner">find out more</button></Col>
+<button className="btn b-banner">FIND OUT MORE</button></Col>
 </Row>
 </Col>
 

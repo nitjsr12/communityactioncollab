@@ -31,7 +31,7 @@ function OurImpact() {
                   suffix=""
                   className="increment"
                 ></CountUp>
-                    <p className='p-text'>Partners hello</p> 
+                    <p className='p-text'>Partners</p> 
   
         </Col>
         

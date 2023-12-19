@@ -27,8 +27,8 @@ function Bodyaction()  {
               
          </Container>
          <Container fluid className="">
-<Row className='b-action'>
-<Col className="sec-1 align-items-center d-flex ">
+  <Row className='b-action'>
+<Col sm={12} lg={3} className="sec-1 align-items-center d-flex ">
 <div className="c-action" >
 <Image src="/images/015-Build-Blockchain.svg" width={80} height={80} className=''/>
   <div className="card-body pt-3">
@@ -37,10 +37,10 @@ function Bodyaction()  {
   </div>
 </div>
 </Col>
-<Col lg={1} className='triangle-right '>
+<Col lg={1} className='triangle-right d-none d-mb-block  d-lg-block'>
 
 </Col>
-<Col className="sec-2  align-items-center d-flex  ">
+<Col  sm={12} lg={3} className="sec-2  align-items-center d-flex  ">
 <div class="c-action" >
 <Image src="/images/influencer.svg" width={80} height={80} />
   <div class="card-body pt-3">
@@ -49,11 +49,11 @@ function Bodyaction()  {
   </div>
 </div>
 </Col>
-<Col lg={1} className='triangle-right-1'>
+<Col lg={1} className='triangle-right-1 d-none d-mb-block  d-lg-block'>
 
 </Col>
 
-<Col className="sec-3  align-items-center d-flex ">
+<Col sm={12} lg={3} className="sec-3  align-items-center d-flex ">
 <div class="c-action" >
 <Image src="/images/business-and-finance.svg" width={80} height={80} />
   <div class="card-body pt-3">

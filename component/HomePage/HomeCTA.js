@@ -39,7 +39,7 @@ function HomeCTA() {
             <Image src="/images/women.png" width={200} height={300} className='px-4'/>
             </Col>
             <Col>
-            <button className="btn b-banner">find out more</button>
+            <button className="btn b-banner">FIND OUT MORE </button>
             </Col>
            </Row>
 

@@ -47,7 +47,7 @@ function Ourvision() {
               </Row>
             </Container>
           </Col>
-          <Col lg={9} className="pt-5" id="vistion">
+          <Col lg={9} sm={12} className="pt-5" id="vistion">
             <h2 className="t-vision">Our Vision</h2>
             <p className="p-vision">
               A world that is resilient and invigorated. (Empowering the key
@@ -61,32 +61,38 @@ function Ourvision() {
               countries in social and economic development, including
               humanitarian emergencies.
             </p>
-            <div className="d-flex">
-            <Card style={{ width: "22rem" }} className="ms-3 me-3 text-start Synergise">
-              <Card.Img  variant="top" src="/images/pie-chart.svg" width="40px" height="44px" />
-              <Card.Body>
-                <Card.Text className="p-card">
+            <div class="row">
+  <div className="col-sm-4">
+    <div className="card">
+      <div className="card-body">
+      <Card.Img  variant="top" src="/images/pie-chart.svg" width="40px" height="44px" />
+      <Card.Text className="p-card">
                 Synergise resource access and allocate efforts, in an adaptive and urgent manner
                 </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: "22rem" }} className="ms-3 me-3 Synergise">
-              <Card.Img variant="top" src="/images/Group-115.svg"  width="40px" height="44px"/>
-              <Card.Body>
-                <Card.Text className="p-card">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+      <Card.Img variant="top" src="/images/Group-115.svg"  width="40px" height="44px"/>
+      <Card.Text className="p-card">
                 Augment collaboration and connections, within the larger network, at multiple levels
                 </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: "22rem" }} className="ms-3 me-3 Synergise">
-              <Card.Img variant="top" src="/images/speedometer.svg" width="40px" height="44px"/>
-              <Card.Body>
-                <Card.Text className="p-card">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+      <Card.Img variant="top" src="/images/speedometer.svg" width="40px" height="44px"/>
+      <Card.Text className="p-card">
                 Accelerate transformative impact in keeping with the changing needs within vulnerable communities
                 </Card.Text>
-              </Card.Body>
-            </Card>
-            </div>
+      </div>
+    </div>
+  </div>
+</div>
             <Container className="pt-4" id="partners">
             <h2 className="t-vision"> Our Partners </h2>
             <p className="p-vision">We believe that resilient communities are better able to prepare, adapt and get stronger in response to internal and external pressures and stresses in a way that not only allows them to maintain essential functions and bounce back quickly but also goes further toward an improved environment, social and economic health and wellbeing.</p>
@@ -100,11 +106,11 @@ function Ourvision() {
             <p className="p-vision">Our Governing Council brings in a wealth of learning from the areas of health, livelihoods, disaster management, food supplies, bureaucracy, academia, technology and donors.</p>
             </Container>
             <Container className="d-flex mt-5  mb-5">
-            <Row xs={1} md={2} lg={4} className="g-3">
+            <Row xs={2} md={2} lg={4} className="g-3">
         {teamMembers.map((member, index) => (
           <Col key={index}>
             <Card className='team-card'>
-              <Card.Img className='i-team' variant="top" src={member.image} alt={`${member.name} - ${member.role}`} />
+              <Card.Img className='i-team img-fluid' variant="top" src={member.image} alt={`${member.name} - ${member.role}`} />
               <Card.Body>
                 <Card.Title className='n-team'>{member.name}</Card.Title>
                 <Card.Text className='p-role'>{member.role}</Card.Text>

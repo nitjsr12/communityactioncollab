@@ -9,19 +9,19 @@ import { images } from '@/next.config';
 function Header() {
   return (
     <>
-  <Navbar bg="light" expand="lg" className=" shadow-sm px-5  ">
+  <Navbar  expand="lg" className=" shadow-sm px-5 bg-white  ">
       <Navbar.Brand href="#home">
         <Image src= "./images/cac_Logo.svg" width={190} height={80}></Image>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarNav" />
       <Navbar.Collapse id="navbarNav">
-        <Nav className="ms-auto navbar-nav ">
+        <Nav className="ms-auto navbar-nav mx-4 ">
           <Nav.Link className='px-2' href="/">Home</Nav.Link>
           <Nav.Link className='px-2' href="/about">About us</Nav.Link>
           <Nav.Link  className='px-2'href="/action">Our Action</Nav.Link>
           <Nav.Link  className='px-2'href="/impact">Our Impact</Nav.Link>
           <NavDropdown  className='px-2' title="Our Initiatives" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/1">SHILP</NavDropdown.Item>
+            <NavDropdown.Item href="/shilp">SHILP</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/2">Economic resilience</NavDropdown.Item>
             <NavDropdown.Divider />
