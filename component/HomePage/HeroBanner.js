@@ -30,7 +30,7 @@ function HeroBanner() {
 
 
   return (
-<Container className=''>
+<Container className='' fluid>
  <Row className='justify-content-center'>
 <Col lg={4} className='d-flex align-items-center cac-banner'>
 <Row className="d-flex flex-column ">
@@ -51,8 +51,8 @@ function HeroBanner() {
         src='/images/spinner.png'
         alt=''
         className='w-100'
-        width="700"
-        height="700"
+        width="900"
+        height="900"
         style={{ transform: `rotate(${rotation}deg)` }}
       />
  

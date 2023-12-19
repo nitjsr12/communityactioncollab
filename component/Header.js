@@ -4,7 +4,7 @@ import { Navbar, Container, Nav, NavDropdown,Image } from 'react-bootstrap';
 const Header = () => {
   return (
     <Navbar bg="light" expand="lg" className='cac_main'>
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#home">
          <Image src='./images/cac_Logo.svg' width={214} height={50} alt='cac log'>
 

@@ -5,7 +5,7 @@ body{
 }
 nav.cac_main {
   background: #fff!important;
-  padding: 0 50px 0 0!important;
+  padding: 0 50px 0 50px!important;
   height: 100px!important;
   color: #333!important;
   box-shadow: 0px 0px 4px 0px #888888!important;
@@ -66,26 +66,32 @@ nav.cac_main {
   background-size: cover;
 }
 .w-100{
-  width:100%;
+  
 }
 
 .wrapper {
   position: absolute;
   transition: .5s;
   transform-origin: center;
+  z-index: -1!important;
 }
 .slick-prev {
   display: none!important;
-  left: -25px;
+  
 }
 
 .slider-1 {
-  left: 29% !important;
+  left: 32% !important;
+  width: 400px!important;
   }	
+
+  button.slick-arrow.slick-next {
+    display: none!important;
+}
  .herobanner {
   background: center center/cover no-repeat;
-  height: 200px!important;
-  width: 200px!important;
+  height: 300px!important;
+  width: 300px!important;
   border-radius: 50%!important;
 }
 
