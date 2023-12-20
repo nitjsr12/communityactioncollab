@@ -5,7 +5,7 @@ body{
 }
 nav.cac_main {
   background: #fff!important;
-  padding: 0 50px 0 50px!important;
+  padding: 18px 50px 0 50px!important;
   height: 100px!important;
   color: #333!important;
   box-shadow: 0px 0px 4px 0px #888888!important;
@@ -16,6 +16,19 @@ nav.cac_main {
   line-height: 20px;
   color: #000000!important;
 }
+.b-cta{
+  font-family: lato,Sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    line-height: 16px !important;
+    letter-spacing: .8px !important;
+    fill: #000 !important;
+    color: #000 !important;
+    background-color: #fdd800!important;
+    border-radius: 10px 10px 10px 10px!important;
+}
+
 
 .cac-banner {
   height: 700px!important;
@@ -47,7 +60,7 @@ nav.cac_main {
   background-position: center center!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
-  height: 631px!important;
+  height: 599px!important;
 }
 
 .p-cta {
@@ -101,11 +114,11 @@ ul.slick-dots {
 }
 
 .t-action{
-  color: #1c7c9c;
-    font-family: lato,Sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 41px;
+  color: #1c7c9c!important;
+    font-family: lato,Sans-serif!important;
+    font-size: 26px!important;
+    font-weight: 700!important;
+    line-height: 41px!important;
   
 }
 .p-action{
@@ -293,17 +306,19 @@ p.p-text {
     width: 50%;
 }
 h2.t-partner {
-  color: #fff;
-  font-family: lato,Sans-serif;
-  font-size: 44px;
-  font-weight: 300;
-  line-height: 41px;
+  color: #fff!important;
+  font-family: lato,Sans-serif!important;
+  font-size: 44px!important;
+  font-weight: 300!important;
+  line-height: 41px!important;
+  padding-bottom: 20px!important;
 }
 p.p-partner {
-  color: #fff;
-  font-family: lato,Sans-serif;
-  font-size: 20px;
-  line-height: 32px;
+  color: #fff!important;
+  font-family: lato,Sans-serif!important;
+  font-size: 20px!important;
+  line-height: 32px!important;
+  font-weight: 300!important;
 }
 /* styles/banner.css */
 .banner-container {
@@ -790,14 +805,78 @@ label.label-style {
 
 
 @media  (max-width: 600px){
+  .logo_img{
+    width: 200px!important;
+  }
+ 
+  .cac_main {
+    background: #fff!important;
+    padding: 0px 0px 0 0px!important;
+    height: 100px!important;
+    color: #333!important;
+  }
+  
+  
+.b-cta{
+  font-family: lato,Sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    line-height: 16px !important;
+    letter-spacing: .8px !important;
+    fill: #000 !important;
+    color: #000 !important;
+    background-color: #fdd800!important;
+    border-radius: 10px 10px 10px 10px!important;
+    position: absolute!important;
+    left: 114px!important;
+    margin-top: -37px!important;
+}
+   
+
+  .cac-banner {
+    height:300px!important;
+}
+
+.herobanner {
+  background: center center/cover no-repeat;
+  height: 130px!important;
+  width: 130px!important;
+  border-radius: 50%!important;
+}
+
+.wrapper {
+  position: relative!important;
+  transition: .5s;
+  transform-origin: center;
+  z-index: -1!important;
+}
+
+.slider-1 {
+  left: 35% !important;
+  width: 140px!important;
+  top: -274px;
+}
+.p-banner {
+  color: #000;
+  font-family: lato,Sans-serif;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+}
+
   .mob-cta {
     background-color: transparent!important;
     background-image: linear-gradient(90deg, #FFC400 0%, #1C7C9C 100%)!important;
 }
 .b-banner {
-  margin-top: -69px;
+  margin-top: 9px;
   position: absolute;
   left: 143px;
+}
+.w-100 {
+  width: 100%;
+  height: auto;
 }
 .p-cta {
   text-align: center;
@@ -871,7 +950,7 @@ padding-top: 20px;
 }
 .image-container-1 {
   position: relative;
-  height: 300px;
+  height: 390px;
   background-image: url(/images/volunteer.png);
   background-size:cover;
   background-position: center;

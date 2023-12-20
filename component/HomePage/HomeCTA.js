@@ -18,7 +18,7 @@ function HomeCTA() {
             <p>
             Taking the legacy of #COVIDActionCollab forward, Community Action Collab orchestrates and influences the actions and decisions of its partners, the Government and other alliances, enabling them to solve issues affecting 10 million vulnerable people and ensuring they access critical livelihood, health, social protection and climate impact solutions.
             </p>
-            <button className="btn b-banner">find out more</button>
+            <button className="btn b-cta">find out more</button>
             </Col>
             <Col lg={4} className='women-img'>
             <Image src="/images/women.png" width={400} height={550}/>
@@ -39,7 +39,7 @@ function HomeCTA() {
             <Image src="/images/women.png" width={200} height={300} className='px-4'/>
             </Col>
             <Col>
-            <button className="btn b-banner">FIND OUT MORE </button>
+            <button className="btn b-cta">FIND OUT MORE </button>
             </Col>
            </Row>
 

@@ -70,7 +70,8 @@ function JoinUs() {
             <h2 className='t-partner'>
             Partner With Us
             </h2>
-            <p className='p-partner'>Implementing Organisations: NGOs, CBOs and Government bodies working at the grassroots level.</p>
+            <p className='p-partner'>Implementing Organisations: NGOs, CBOs and Government bodies
+             working at the grassroots level.</p>
             <a href=''className='btn btn-partner'>
                 JOIN US
             </a>
