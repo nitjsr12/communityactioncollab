@@ -886,6 +886,9 @@ label.label-style {
   padding-top: 30px;
   font-weight: 300!important;
 }
+img.img_logo {
+  width: 200px!important;
+}
 .m_menu_item.nav-link  {
   border-style: solid!important;
   border-color: #1c7c9c!important;
