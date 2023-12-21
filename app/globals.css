@@ -52,6 +52,7 @@ nav.cac_main {
   background-color: #f95a00!important;
   border-radius: 10px 10px 10px 10px!important;
   padding: 10px 20px 10px 20px!important;
+  text-decoration: none;
 }
 
 .cta-banner {
@@ -754,6 +755,11 @@ button.t-tab.btn.btn-primary {
   background-size: cover;
   height: 600px;
   width: 50%;
+}
+.blog_card{
+    height: 320px!important;
+    margin-bottom: 30px;
+    padding-bottom: 20px!important;
 }
 .Partner-With-join-1{
 background-color: #1c7c9c;;

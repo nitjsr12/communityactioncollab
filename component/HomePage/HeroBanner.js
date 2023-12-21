@@ -4,6 +4,7 @@ import React, { useState, useRef } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import Image from 'next/image';
 import Slider from 'react-slick';
+import Link from 'next/link';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -41,7 +42,7 @@ function HeroBanner() {
 <p>…is a dynamic humanitarian emergency platform that builds the resilience of Vulnerable People and their institutions, in their everyday emergencies, and is ready for future humanitarian crises.</p>
 </Col>
 <Col>
-<button className="btn b-banner">FIND OUT MORE</button></Col>
+<button className="btn"> <Link href="/about" className='b-banner'> FIND OUT MORE</Link></button></Col>
 </Row>
 </Col>
 

@@ -93,7 +93,7 @@ const Blog = () => {
           {data.map((item) => (
             <Col key={item.id} sm={4}>
             
-              <div className="card" >
+              <div className="card blog_card" >
   <img src={item['_embedded']['wp:featuredmedia']['0']['source_url']} className="card-img-top" alt=""/>
   <div className="card-body">
     <h5 className="card-title">{item.title.rendered}</h5>
