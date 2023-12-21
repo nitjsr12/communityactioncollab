@@ -6,7 +6,7 @@ import Image from "next/image";
 function Banner() {
   return (
     <>
-      <Container className="action-banner-bg" fluid>
+      <Container className="join-banner-bg" fluid>
         <Row className="action-banner-bg-1" fluid>
           <Col lg={4} className="d-flex align-items-center ps-5">
             <p className="p-about">

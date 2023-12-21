@@ -435,8 +435,27 @@ p.p-partner {
 
 }
 
-
-
+a.Menu_footer {
+  color: #fff;
+  color: #fff;
+  fill: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+p.p_copy {
+  text-align: center;
+  color: #fff;
+  font-family: lato,Sans-serif;
+  font-size: 14px;
+}
+.bg-copy.col {
+  background: #000;
+  padding-top: 10px;
+}
 .footer-cs {
   background-color: #262626;
 }
@@ -638,6 +657,17 @@ p.p-role {
   padding: 0;
  
 }
+.join-banner-bg{
+
+  background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/11/Join-Us-Banner-Comprossed.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+
 
 .action-banner-bg-1{
   background-image: linear-gradient(90deg,#1C7C9C 19%,#1C7C9C2B 42%);
@@ -711,7 +741,12 @@ button.b-shilp a {
  
 }
 
-
+button.t-tab.btn.btn-primary {
+  width: 300px;
+  background: #e7f1f4;
+  border: 0;
+  text-align: left;
+}
 .Partner-With-join{
   background-image: url(https://communityactioncollab.org/wp-content/uploads/2023/07/Highcompressed_712800817.png);
   background-position: center center;

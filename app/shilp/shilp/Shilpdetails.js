@@ -9,7 +9,7 @@ const CardList = () => {
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {/* Card 1 */}
           <div className="col">
-            <div className="card card-1  d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1  d-flex flex-row ">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-analysing-1567429.svg"
                 className="card-img-top Baseline"
@@ -27,7 +27,7 @@ const CardList = () => {
 
           {/* Card 2 */}
           <div className="col">
-            <div className="card card-1  d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1  d-flex flex-row ">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-planning-2941618.svg"
                 className="card-img-top Baseline"
@@ -44,7 +44,7 @@ const CardList = () => {
 
           {/* Card 3 */}
           <div className="col">
-            <div className="card card-1 d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1 d-flex flex-row ">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-leadership-5167171.svg"
                 className="card-img-top Baseline"
@@ -64,7 +64,7 @@ const CardList = () => {
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {/* Card 1 */}
           <div className="col">
-            <div className="card card-1  d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1  d-flex flex-row ">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-meeting-1949946.svg"
                 className="card-img-top Baseline"
@@ -82,7 +82,7 @@ const CardList = () => {
 
           {/* Card 2 */}
           <div className="col">
-            <div className="card card-1  d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1  d-flex flex-row">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-connection-1597758.svg"
                 className="card-img-top Baseline"
@@ -98,7 +98,7 @@ const CardList = () => {
 
           {/* Card 3 */}
           <div className="col">
-            <div className="card card-1 d-flex flex-row justify-content-start flex-wrap">
+            <div className="card card-1 d-flex flex-row ">
               <img
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-resources-4347499-1.svg"
                 className="card-img-top Baseline"

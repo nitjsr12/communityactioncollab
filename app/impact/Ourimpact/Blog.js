@@ -87,8 +87,8 @@ const Blog = () => {
     </Tab.Container>
                 </Col>
 
-        <Col lg={9}>
-      <h1>category slected - {newCat}</h1>
+        <Col lg={9} className='mt-5'>
+      
           <Row>
           {data.map((item) => (
             <Col key={item.id} sm={4}>
