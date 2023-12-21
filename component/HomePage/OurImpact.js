@@ -19,7 +19,7 @@ function OurImpact() {
 <Container fluid className=' '>
     <Row className=''>
         <Col lg={2} xs={6} className='p-0'>
-        <Image src="/images/imapact.jpeg" width={280} height={400} className='w-100'/>
+        <Image src="/images/impact.jpeg" width={280} height={400} className='w-100'/>
         </Col>
         
         <Col lg={2} xs={6} className='Partners d-flex flex-column  align-items-cente '>
