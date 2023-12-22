@@ -24,11 +24,10 @@ function Bodyaction()  {
             </Col>
              
           </row>
-              
          </Container>
-         <Container fluid className="">
-  <Row className='b-action'>
-<Col sm={12} lg={3} className="sec-1 align-items-center d-flex ">
+         <Container fluid>
+<Row className='b-action d-flex flex-column flex-md-row'>
+<Col className="sec-1 align-items-center d-flex  ">
 <div className="c-action" >
 <Image src="/images/015-Build-Blockchain.svg" width={80} height={80} className=''/>
   <div className="card-body pt-3">
@@ -37,10 +36,10 @@ function Bodyaction()  {
   </div>
 </div>
 </Col>
-<Col lg={1} className='triangle-right d-none d-mb-block  d-lg-block'>
+<Col lg={1} className='triangle-right  d-none d-lg-block d-md-block'>
 
 </Col>
-<Col  sm={12} lg={3} className="sec-2  align-items-center d-flex  ">
+<Col className="sec-2  align-items-center d-flex  ">
 <div class="c-action" >
 <Image src="/images/influencer.svg" width={80} height={80} />
   <div class="card-body pt-3">
@@ -49,11 +48,11 @@ function Bodyaction()  {
   </div>
 </div>
 </Col>
-<Col lg={1} className='triangle-right-1 d-none d-mb-block  d-lg-block'>
+<Col lg={1} className='triangle-right-1 d-none d-lg-block d-md-block'>
 
 </Col>
 
-<Col sm={12} lg={3} className="sec-3  align-items-center d-flex ">
+<Col className="sec-3  align-items-center d-flex ">
 <div class="c-action" >
 <Image src="/images/business-and-finance.svg" width={80} height={80} />
   <div class="card-body pt-3">
@@ -64,7 +63,6 @@ function Bodyaction()  {
 
 </Col>
 </Row>
-
 </Container>
 <Container>
   <Row>
@@ -76,18 +74,18 @@ function Bodyaction()  {
     </Col>
   </Row>
   <Row>
-        <Col sm className='outcomebox'>
-          <p>
+        <Col sm className='outcomebox  d-flex align-items-center'>
+          <p className='p_outcomes'>
           Enable at least 10 million vulnerable people to experience resilience in their lives and livelihoods.
           </p>
         </Col>
-        <Col  sm className='outcomebox' >
-          <p>
+        <Col  sm className='outcomebox d-flex align-items-center' >
+          <p className='p_outcomes' >
           Enable at least 100 vulnerable people-focused organisations to become resilient to future humanitarian tragedies.
           </p>
         </Col>
-        <Col sm className='outcomebox'>
-          <p>
+        <Col sm className='outcomebox d-flex align-items-center'>
+          <p className='p_outcomes'>
           Create a ‘spring to action’ ready resourced platform available to respond to emergencies present in key vulnerable districts.
           </p>
         </Col>

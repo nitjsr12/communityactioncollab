@@ -17,10 +17,10 @@ function JoinUs() {
 </Container>
 <Container fluid className='d-none d-lg-block d-md-block'>
     <Row>
-        <Col className='Partner-With-Us'>
-           
+        <Col lg={6} className='Partner-With-Us'>
+
         </Col>
-        <Col className='Partner-With-Us-1'>
+        <Col lg={6} className='Partner-With-Us-1'>
             <h2 className='t-partner'>
             Partner With Us
             </h2>
@@ -31,9 +31,10 @@ function JoinUs() {
            
         </Col>
     </Row>
+    
     <Row>
         
-        <Col className='volunteer-1'>
+        <Col lg={6} className='volunteer-1'>
             <h2 className='t-volunteer'>
             Volunteer With Us
             </h2>
@@ -42,15 +43,15 @@ function JoinUs() {
         
            
         </Col>
-        <Col className='volunteer'>
+        <Col lg={6} className='volunteer'>
            
         </Col>
     </Row>
     <Row>
-        <Col className='Invest'>
+        <Col lg={6} className='Invest'>
            
         </Col>
-        <Col className='Invest-1'>
+        <Col lg={6} className='Invest-1'>
             <h2 className='t-partner'>
             Invest In Community Action Collab
             </h2>

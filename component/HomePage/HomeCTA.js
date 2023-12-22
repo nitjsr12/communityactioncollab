@@ -4,6 +4,7 @@ import React from 'react'
 import {Row, Col, Container} from 'react-bootstrap'
 import Image from 'next/image'
 import { images } from '@/next.config'
+import { Link } from 'react-bootstrap-icons'
 
 function HomeCTA() {
   return (
@@ -18,7 +19,7 @@ function HomeCTA() {
             <p>
             Taking the legacy of #COVIDActionCollab forward, Community Action Collab orchestrates and influences the actions and decisions of its partners, the Government and other alliances, enabling them to solve issues affecting 10 million vulnerable people and ensuring they access critical livelihood, health, social protection and climate impact solutions.
             </p>
-            <button className="btn b-cta">find out more</button>
+            <button className="btn b-cta"> <Link href='/about'> find out more</Link></button>
             </Col>
             <Col lg={4} className='women-img'>
             <Image src="/images/women.png" width={400} height={550}/>

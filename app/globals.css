@@ -27,9 +27,12 @@ nav.cac_main {
     color: #000 !important;
     background-color: #fdd800!important;
     border-radius: 10px 10px 10px 10px!important;
+    padding: 12px 20px!important;
 }
 
-
+.card_missoin {
+  height: 200px!important;
+}
 .cac-banner {
   height: 700px!important;
 }
@@ -133,6 +136,7 @@ ul.slick-dots {
   background:#3690C0;
   height: 400px;
   position: relative;
+  padding-left: 40px!important;
 }
 .o-title{
   color: #fff;
@@ -294,7 +298,6 @@ p.p-text {
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    width: 50%;
 }
 .Partner-With-Us-1{
   background-color: #1c7c9c;;
@@ -304,7 +307,7 @@ p.p-text {
     height: 400px;
     padding: 80px;
     padding-left: 30px!important;
-    width: 50%;
+  
 }
 h2.t-partner {
   color: #fff!important;
@@ -345,10 +348,10 @@ p.p-partner {
   transform: translateX(-50%);
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding-top: 60px;
   background-image: linear-gradient(90deg, #1C7C9CF0 28%, #FD9C00E0 91%);
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 .btn-partner{
@@ -364,6 +367,7 @@ p.p-partner {
     border-width: 1px!important;
     border-color: #fff!important;
     border-radius: 10px 10px 10px 10px!important;
+    padding: 14px 30px!important;
 }
 .volunteer{
     background-image: url(https://communityactioncollab.org/wp-content/uploads/2023/07/Highcompressed_1626601023.png);
@@ -387,7 +391,7 @@ p.p-partner {
 .increment-impact {
   color: #FFFFFF;
   font-family: "Bebas Neue", Sans-serif;
-  font-size: 49px;
+  font-size: 57px;
   font-weight: 700;
   text-shadow: 0px 4px 0px #000000;
 }
@@ -549,10 +553,10 @@ p.p-about {
   padding: 20px;
   background-color: #fff;
   border-radius: 5px 5px 0 0;
-  color: #1c7c9c;
-    font-family: lato,Sans-serif;
-    font-size: 16px;
-    letter-spacing: .8px;
+  color: #1c7c9c!important;
+   font-family: lato,Sans-serif!important;
+  font-size: 16px!important;
+  letter-spacing: .8px!important;
     margin-top: -58px!important;
 }
 
@@ -726,10 +730,17 @@ button.b-shilp a {
   color: #fff;
   text-decoration: none;
 }
-.outcomebox {
-  background-color: #FEF2A8;
-  padding: 12px;
-  margin-left: 20px;
+
+  .outcomebox {
+    background-color: #FEF2A8;
+    margin-left: 20px;
+    height: 150px;
+}
+.p_outcomes {
+  color: #000000!important;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px!important;
+  line-height: 28px!important;
 }
 
 .impact-banner-bg{
@@ -872,6 +883,7 @@ label.label-style {
     position: absolute!important;
     left: 114px!important;
     margin-top: -37px!important;
+    
 }
    
 
@@ -914,6 +926,25 @@ label.label-style {
   margin-top: 9px;
   position: absolute;
   left: 143px;
+}
+.content {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  background-image: linear-gradient(90deg, #1C7C9CF0 28%, #FD9C00E0 91%);
+  width: 100%;
+  height: 300px;
+}
+.increment-impact {
+  color: #FFFFFF;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 30px!important;
+  font-weight: 700;
+  text-shadow: 0px 4px 0px #000000;
 }
 .w-100 {
   width: 100%;

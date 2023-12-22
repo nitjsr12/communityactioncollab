@@ -3,15 +3,16 @@
 import React from 'react';
 import { Col,Row, Container } from 'react-bootstrap';
 import CountUp from "react-countup"
+import { Navbar, NavDropdown } from 'react-bootstrap';
 
 function Banner() {
   return (
     <div className="banner-container">
       <div className="overlay"></div>
       <div className="content">
-        <Container className='text-center '>
-          <Row xs={3} lg={1} md={2}>
-            <Col lg={2}>
+        <Container  fluid className='text-center '>
+          <Row xs={3} lg={1} md={2} className='d-flex align-items-center'>
+            <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
                   end={368}
@@ -23,7 +24,7 @@ function Banner() {
                  <p className='p-text'>Partners
 of CAC</p> 
             </Col>
-            <Col lg={2}>
+            <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
                   end={36}
@@ -35,7 +36,7 @@ of CAC</p>
                  <p className='p-text'>States & UTs</p> 
             </Col>
             
-            <Col lg={2}>
+            <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
                   end={13}
@@ -48,7 +49,7 @@ of CAC</p>
 Communities
 </p> 
             </Col>
-            <Col lg={2}>
+            <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
                   end={2000}
@@ -59,7 +60,7 @@ Communities
                 ></CountUp>
                  <p className='p-text'>Volunteers</p> 
             </Col>
-            <Col lg={2}>
+            <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
                   end={2.8}
@@ -71,7 +72,7 @@ Communities
                  <p className='p-text'>Services
 Delivered</p> 
             </Col>
-            <Col lg={2}>
+            <Col lg={2} >
             <CountUp
                   start={0}
                   end={1109}

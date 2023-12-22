@@ -29,7 +29,7 @@ function Ourvision() {
             <Container className="sticky-top">
               <Row>
                 <Col className="in-section">
-                  <h3>IN THE SECTION</h3>
+                  <h3 className="">IN THE SECTION</h3>
                   <Tab.Container id="vertical-tabs-example" defaultActiveKey="home">
       <Nav variant="" className="flex-column tab-about">
         <Nav.Item >
@@ -63,7 +63,7 @@ function Ourvision() {
             </p>
             <div class="row">
   <div className="col-sm-4">
-    <div className="card">
+    <div className="card card_missoin">
       <div className="card-body">
       <Card.Img  variant="top" src="/images/pie-chart.svg" width="40px" height="44px" />
       <Card.Text className="p-card">
@@ -73,7 +73,7 @@ function Ourvision() {
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card card_missoin">
       <div class="card-body">
       <Card.Img variant="top" src="/images/Group-115.svg"  width="40px" height="44px"/>
       <Card.Text className="p-card">
@@ -83,7 +83,7 @@ function Ourvision() {
     </div>
   </div>
   <div class="col-sm-4">
-    <div class="card">
+    <div class="card card_missoin">
       <div class="card-body">
       <Card.Img variant="top" src="/images/speedometer.svg" width="40px" height="44px"/>
       <Card.Text className="p-card">

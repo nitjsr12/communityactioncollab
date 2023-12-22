@@ -124,7 +124,7 @@ const CardList = () => {
                <p>In order to fulfil the ongoing information and knowledge requirements and needs of the organisations, the Resource Hub is an online repository – ‘ready-to-use’ information and knowledge artefacts, that you will find useful, as you strengthen your organisations and your leadership teams.</p>
                <p>The resource hub consists of self help resources such as tools, articles, frameworks, guidelines, etc., that you can access and share with others too.</p>
                <p>The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
-               <button className="btn" >KNOW MORE</button>
+               <button className="btn " >KNOW MORE</button>
           </Col>
         </Row>
       </Container>
