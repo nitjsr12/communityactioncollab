@@ -810,6 +810,14 @@ ul.partnew {
   border-radius: 20px;
   margin-bottom: 30px;
 }
+.shilp_formdata{
+  background-color: #E8F2F5;
+  padding: 40px;
+  margin-top: 0px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+}
 
 button.btn-form {
   background-color: #1C7C9C;

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import Image from "next/image";
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button'
 
 const CardList = () => {
   return (
@@ -124,8 +126,50 @@ const CardList = () => {
                <p>In order to fulfil the ongoing information and knowledge requirements and needs of the organisations, the Resource Hub is an online repository – ‘ready-to-use’ information and knowledge artefacts, that you will find useful, as you strengthen your organisations and your leadership teams.</p>
                <p>The resource hub consists of self help resources such as tools, articles, frameworks, guidelines, etc., that you can access and share with others too.</p>
                <p>The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
-               <button className="btn " >KNOW MORE</button>
+               <button className=" b-shilp " >KNOW MORE</button>
           </Col>
+        </Row>
+      </Container>
+       <Container className="mt-5"> 
+       <Row>
+          <Col>
+             <h2>Contact Us</h2>
+             <p>To learn more about the initiative or join us, fill this form.</p>
+          </Col>
+        </Row>
+       </Container>
+      <Container className='shilp_formdata mt-2'>
+        <Row>
+          <Col>
+          <Form.Group className="" controlId="exampleForm.ControlTextarea1"></Form.Group>
+          <Form.Label className='label-style'>Full Name</Form.Label>
+          <Form.Control placeholder="" />
+          </Col>
+          <Col>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
+          <Form.Label className='label-style'> Mobile No. </Form.Label>
+          <Form.Control placeholder="" />
+        </Col>
+        <Col>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
+        <Form.Label className='label-style'>Email ID</Form.Label>
+          <Form.Control placeholder="" />
+        </Col>
+        </Row>
+        <Row>
+           <Col>
+           <Form.Group className="mt-5 mb-4" controlId="exampleForm.ControlTextarea1">
+        <Form.Label className='label-style'>Message</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+           </Col>
+        </Row>
+        <Row>
+        <Col>
+        <Button className='btn-form' type="submit">
+        Submit
+      </Button>
+           </Col>
         </Row>
       </Container>
     </>

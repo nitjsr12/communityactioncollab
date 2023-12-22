@@ -20,8 +20,8 @@ function Banner() {
       </Container>
       <Container fluid>
         <Row>
-          <Col className="Partner-With-join"></Col>
-          <Col className="Partner-With-join-1">
+          <Col className="Partner-With-join" lg={6}></Col>
+          <Col className="Partner-With-join-1" lg={6}>
             <h2 className="t-partner">Partner With Us</h2>
             <p className="p-partner pb-4 pt-4">We’re looking to partner with:</p>
             <ul className="list-unstyled list-partner">
@@ -63,7 +63,7 @@ function Banner() {
           </Col>
         </Row>
         <Row>
-          <Col className="volunteer-1">
+          <Col className="volunteer-1" lg={6}>
             <h2 className="t-volunteer">Volunteer With Us</h2>
             <p className="p-volunteer pt-4">
               We invite stellar, driven and passionate volunteers who’d like to
@@ -76,10 +76,10 @@ function Banner() {
               COMMUNITYACTIONCOLLAB@CATALYSTS.ORG
             </p>
           </Col>
-          <Col className="volunteer"></Col>
+          <Col className="volunteer" lg={6}></Col>
         </Row>
         <Row>
-          <Col className="Invest"></Col>
+          <Col className="Invest" lg={6}></Col>
           <Col className="Invest-1">
             <h2 className="t-partner">Invest In Community Action Collab</h2>
             <p className="p-partner">
