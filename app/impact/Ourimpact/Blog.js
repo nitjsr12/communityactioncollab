@@ -65,11 +65,12 @@ const Blog = () => {
                   <h3>IN THE SECTION</h3>
                   <Tab.Container id="vertical-tabs-example" defaultActiveKey="home">
       <Nav variant="" className="flex-column tab-about">
-     
+     <Nav.Item>
+     <Nav.Link   className="t-tab" eventKey="home" href="/impact">All Communities</Nav.Link>
+     </Nav.Item>
       {category.map((item) => (
            <div key={item.id}>
            <Nav.Item >
-           <Nav.Link   className="t-tab" eventKey="home" href="/impact">All Communities</Nav.Link>
            <Button  className="t-tab" dangerouslySetInnerHTML={{__html:item.name}} 
            onClick={() => handleTabClick(item.id)}
            />
