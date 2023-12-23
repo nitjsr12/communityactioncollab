@@ -25,7 +25,7 @@ function JoinUs() {
             Partner With Us
             </h2>
             <p className='p-partner'>Implementing Organisations: NGOs, CBOs and Government bodies working at the grassroots level.</p>
-            <a href=''className='btn btn-partner'>
+            <a href='https://registration.communityactioncollab.org/partner-sign-up/new'className='btn btn-partner'>
                 JOIN US
             </a>
            
@@ -39,7 +39,7 @@ function JoinUs() {
             Volunteer With Us
             </h2>
             <p className='p-volunteer pt-4'>We invite stellar, driven and passionate volunteers who’d like to contribute to <br/>resilience building within vulnerable communities.</p>
-            <p className='mail-us'>WRITE TO US AT <a href='mailto:COMMUNITYACTIONCOLLAB@CATALYSTS.ORG'></a>COMMUNITYACTIONCOLLAB@CATALYSTS.ORG</p>
+            <p className='mail-us'>WRITE TO US AT <a href='mailto:COMMUNITYACTIONCOLLAB@CATALYSTS.ORG'>COMMUNITYACTIONCOLLAB@CATALYSTS.ORG</a></p>
         
            
         </Col>
@@ -73,7 +73,7 @@ function JoinUs() {
             </h2>
             <p className='p-partner'>Implementing Organisations: NGOs, CBOs and Government bodies
              working at the grassroots level.</p>
-            <a href=''className='btn btn-partner'>
+            <a href='https://registration.communityactioncollab.org/partner-sign-up/new' className='btn btn-partner'>
                 JOIN US
             </a>
             </div>

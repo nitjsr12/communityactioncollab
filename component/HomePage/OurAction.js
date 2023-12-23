@@ -58,7 +58,7 @@ export default function OurAction() {
 <Container className='text-center pt-4 pb-4 '>
   <Row>
   <Col>
-  <a href="#" className="btn btn-action">LEARN MORE</a>
+  <a href="/action" className="btn btn-action">LEARN MORE</a>
   </Col>
   </Row>
 </Container>

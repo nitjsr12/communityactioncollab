@@ -28,6 +28,7 @@ nav.cac_main {
     background-color: #fdd800!important;
     border-radius: 10px 10px 10px 10px!important;
     padding: 12px 20px!important;
+    text-decoration: none!important;
 }
 
 .card_missoin {
@@ -891,6 +892,7 @@ label.label-style {
     position: absolute!important;
     left: 114px!important;
     margin-top: -37px!important;
+    text-decoration: none!important;
     
 }
    
