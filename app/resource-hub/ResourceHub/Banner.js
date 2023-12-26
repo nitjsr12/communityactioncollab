@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Row, Col } from 'react-bootstrap';
+import Link from 'next/link';
 
 function Banner() {
   return (
@@ -8,7 +9,7 @@ function Banner() {
       <Row className='shilp-banner-bg-1' fluid>
         <Col lg={4} className='d-flex align-self-center ps-5 flex-column '>
           <h1 className='t-shilp pb-3'>SHILP Resource Hub</h1>
-          <button className='b-shilp'> <Link href="https://www.shilpresourcehub.org/" target="_blank">Know More
+          <button > <Link href="https://www.shilpresourcehub.org/" target="_blank">Know More
           </Link></button>
         </Col>
       </Row>
