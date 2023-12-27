@@ -4,8 +4,16 @@ import React, { useState, useEffect } from "react";
 import Header from "@/component/Header";
 import Footer from "@/component/Footer";
 import Link from "next/link";
-import { FacebookShareButton, TwitterShareButton, LinkedinShareButton } from 'react-share';
-import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import {  TwitterShareButton, LinkedinShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
+import { FaTelegram, FaTwitter, FaLinkedin , FaWhatsapp} from 'react-icons/fa';
+
+
+const formatDate = (date) => {
+  const year = new Date(date).getFullYear();
+  const month = String(new Date(date).getMonth() + 1).padStart(2, '0');
+  const day = String(new Date(date).getDate()).padStart(2, '0');
+  return `${year}/${month}/${day}`;
+};
 
 const Posts = ({ slug }) => {
   const [data, setData] = useState([]);
@@ -41,20 +49,6 @@ const Posts = ({ slug }) => {
       <Header />
       {data.map((item) => (
         <div key={item.id}>
-      <div className="social-share">
-      <FacebookShareButton url={item.url} quote={item.title.rendered}>
-            <FaFacebook />
-            </FacebookShareButton>
-
-            <TwitterShareButton url={item.url} title={item.title.rendered}>
-              Twitter
-            </TwitterShareButton>
-            <LinkedinShareButton url={item.url} summary={item.title.rendered}>
-              LinkedIn
-            </LinkedinShareButton>
-      </div>
-      
-
           <Container fluid className="impact_post">
             <Row>
               <Col key={item.id}>
@@ -64,18 +58,36 @@ const Posts = ({ slug }) => {
             </Row>
           </Container>
           <Container fluid className="blog_post_content">
-            <Row className="post_contener">
-              <Col lg={5} className="">
+            <Row className="d-flex justify-content-center">
+              <Col lg={8} className="">
                 {item.acf && item.acf.banner_image && item.acf.banner_image.url && (
-                  <Image src={item.acf.banner_image.url} className="banner_image img-fluid" alt={item.title.rendered} />
+                  <Image src={item.acf.banner_image.url} className="banner_image img-fluid " alt={item.title.rendered} />
                 )}
               </Col>
-              <Col lg={5} className="blog_post">
-                <div
+            </Row>
+            <Row className="post_contener">
+              <Col lg={6} className="blog_post">
+                <p
                   dangerouslySetInnerHTML={{
                     __html: sanitizeHTML(item.content.rendered),
                   }}
                 />
+              </Col>
+              <Col lg={1}>
+                <div className="social-share">
+                  <TwitterShareButton url={`/${formatDate(item.date)}/${slug}`} title={item.title.rendered}>
+                    <FaTwitter size={30} />
+                  </TwitterShareButton>
+                  <LinkedinShareButton url={`/${formatDate(item.date)}/${slug}`} summary={item.title.rendered}>
+                    <FaLinkedin size={30} />
+                  </LinkedinShareButton>
+                  <TelegramShareButton url={`/${formatDate(item.date)}/${slug}`} title={item.title.rendered}>
+                    <FaTelegram size={30} />
+                  </TelegramShareButton>
+                  <WhatsappShareButton url={`/${formatDate(item.date)}/${slug}`} title={item.title.rendered}>
+                    <FaWhatsapp size={30} />
+                  </WhatsappShareButton>
+                </div>
               </Col>
             </Row>
             <Row className="">
@@ -86,7 +98,7 @@ const Posts = ({ slug }) => {
               </Col>
             </Row>
           </Container>
-</div>
+        </div>
       ))}
       <Footer />
     </>

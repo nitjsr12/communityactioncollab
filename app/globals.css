@@ -101,15 +101,29 @@ nav.cac_main {
   padding: 30px!important;
 }
 img.banner_image {
-  width: 590px;
-  margin-top: -66px;
+  width: 720px;
+    margin-top: -66px;
+    margin-left: 48px 
 }
 
-.post_contener.row {
+.post_contener{
   display: flex!important;
-  flex-direction: column!important;
+  flex-direction: row !important;
   align-items: center!important;
   justify-content: center!important;
+}
+
+.social-share {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px 0px 20px 0px;
+  border-radius: 40px;
+  width: 60px;
+  color: #1c7c9c;
+  size: 20px;
+  line-height: 40px;
+  /* margin-top: -314px; */
 }
 .wrapper {
   position: absolute;
@@ -160,7 +174,7 @@ h1.post_title {
   font-size: 44px;
   font-weight: 300;
   line-height: 41px;}
-  
+
 ul.slick-dots {
   display: none!important;
 }
@@ -172,6 +186,10 @@ ul.slick-dots {
     font-weight: 700!important;
     line-height: 41px!important;
   
+}
+.social-share{
+  display: flex;
+  flex-direction: column;
 }
 .p-action{
   color: #000;
@@ -1107,6 +1125,30 @@ padding-top: 20px;
   padding-top: 20px;
 }
 
+img.banner_image {
+  width: 720px;
+   margin-top: 0px!important; 
+   margin-left: 0px!important; 
+}
+h1.post_title {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 28px!important;
+  font-weight: 300;
+  line-height: 42px;
+}
+.social-share {
+  display: flex;
+  flex-direction: row!important;
+   background: #fff;
+    padding: 0px 28px 0px 28px;
+    border-radius: 40px;
+    width: 168px;
+    color: #1c7c9c;
+    size: 4px!important;
+    line-height: 43px;
+    margin: 18px 18px 18px 127px;
+}
 .Partners {
   background-color: #1c7c9c;
   background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/10/Group-78.svg);
