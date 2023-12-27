@@ -1,6 +1,9 @@
 'use client'
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col,Tab,Nav, Button } from 'react-bootstrap';
+
+
 
 const Blog = () => {
   const [data, setData] = useState([]);
@@ -9,6 +12,7 @@ const Blog = () => {
   const [newCat, setNewCat] = useState();
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
+  const now = new Date();
 
   const postFetch = async () => {
     if(newCat === undefined){
@@ -16,15 +20,14 @@ const Blog = () => {
     const response = await fetch(url);
     const data = await response.json();
     setData(data)
-    console.log(url)
+    console.log(data)
     }
     else{
       const url =  `https://beta.communityactioncollab.org/wp-json/wp/v2/posts?_embed&categories=${newCat}`
       const response = await fetch(url);
       const data = await response.json();
-      
       setData(data)
-      //console.log(url)
+      //console.log(data)
     }
  
   };
@@ -35,7 +38,7 @@ const Blog = () => {
       const response = await fetch(postsUrl);
       const data = await response.json();
       setCategory(data);
-     // console.log('catrgory fecth')
+     //console.log(data)
 
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -93,7 +96,8 @@ const Blog = () => {
           <Row>
           {data.map((item) => (
             <Col key={item.id} sm={4}>
-            
+
+            <Link href={`/${item.slug}`}>
               <div className="card blog_card" >
   <img src={item['_embedded']['wp:featuredmedia']['0']['source_url']} className="card-img-top" alt=""/>
   <div className="card-body">
@@ -101,7 +105,9 @@ const Blog = () => {
     
     
   </div>
+  
 </div>
+</Link>
 
 
               

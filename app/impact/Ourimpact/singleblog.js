@@ -7,7 +7,6 @@ function singleblog() {
             <Col>
                <p>Impact Stories</p>
                <h4>Strengthening community-led response during emergencies</h4>
-            
             </Col>
         </Row>
     </Container>
