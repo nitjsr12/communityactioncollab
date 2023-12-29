@@ -67,13 +67,12 @@ const Posts = ({ slug }) => {
             </Row>
             <Row className="post_contener">
               <Col lg={6} className="blog_post">
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: sanitizeHTML(item.content.rendered),
-                  }}
-                />
+
+            <p dangerouslySetInnerHTML={{ __html: item.content.rendered }}></p>
+                  
+
               </Col>
-              <Col lg={1}>
+              <Col >
                 <div className="social-share">
                   <TwitterShareButton url={`/${formatDate(item.date)}/${slug}`} title={item.title.rendered}>
                     <FaTwitter size={30} />

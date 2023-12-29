@@ -63,10 +63,10 @@ Communities
             <Col lg={2} className='border-end'>
             <CountUp
                   start={0}
-                  end={2.8}
+                  end={2}
                   separator=" "
                   prefix=""
-                  suffix="CR"
+                  suffix=".8CR"
                   className="increment-impact"
                 ></CountUp>
                  <p className='p-text'>Services

@@ -26,7 +26,7 @@ const Header = () => {
               <NavDropdown title="Our Initiatives" id="basic-nav-dropdown" className="me-4">
                 <NavDropdown.Item href="/shilp">SHILP</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/2">Economic resilience</NavDropdown.Item>
+                <NavDropdown.Item href="/economic-resilience">Economic resilience</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://covidactioncollab.org/vaxnow/" target='_blank'>VaxNow</NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -54,7 +54,7 @@ const Header = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column ">
-            <Nav.Link href="#home" className='m_menu_item' onClick={handleOffcanvasClose}>Home</Nav.Link>
+            <Nav.Link href="/" className='m_menu_item' onClick={handleOffcanvasClose}>Home</Nav.Link>
             <Nav.Link href="/about" className='m_menu_item' onClick={handleOffcanvasClose}>About Us</Nav.Link>
             <Nav.Link href="/action" className='m_menu_item' onClick={handleOffcanvasClose}>Our Action</Nav.Link>
             <Nav.Link href="/impact" className='m_menu_item' onClick={handleOffcanvasClose}>Our Impact</Nav.Link>
