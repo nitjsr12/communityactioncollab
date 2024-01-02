@@ -2,6 +2,7 @@
 
 import { Navbar, Container, Nav, NavDropdown, Button, Offcanvas, Image } from 'react-bootstrap';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
       <Navbar bg="light" expand="lg" className=" d-lg-block cac_main">
         <Container>
           <Navbar.Brand href="">
-          <Image src='./images/cac_Logo.svg' width={200} height={50} alt='cac log' className='img_logo'></Image>
+          <Link href="/"><Image src='./images/cac_Logo.svg'width={200} height={50} alt='cac log' className='img_logo'></Image></Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='d-none' />
           <Navbar.Collapse id="basic-navbar-nav  " className='cac_nav_item'>
