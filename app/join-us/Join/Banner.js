@@ -57,7 +57,7 @@ function Banner() {
                 building resilience among vulnerable communities.
               </li>
             </ul>
-            <a href="" className="btn btn-partner">
+            <a href=" https://registration.communityactioncollab.org/partner-sign-up/new" target="_blank" className="btn btn-partner">
               JOIN US
             </a>
           </Col>
@@ -72,8 +72,8 @@ function Banner() {
             </p>
             <p className="mail-us">
               WRITE TO US AT{" "}
-              <a href="mailto:COMMUNITYACTIONCOLLAB@CATALYSTS.ORG"></a>
-              COMMUNITYACTIONCOLLAB@CATALYSTS.ORG
+              <a href="mailto:COMMUNITYACTIONCOLLAB@CATALYSTS.ORG" className="m-volunteer"> COMMUNITYACTIONCOLLAB@CATALYSTS.ORG</a>
+              
             </p>
           </Col>
           <Col className="volunteer" lg={6}></Col>
@@ -83,9 +83,7 @@ function Banner() {
           <Col className="Invest-1">
             <h2 className="t-partner">Invest In Community Action Collab</h2>
             <p className="p-partner">
-              Community Action Collab isn’t merely an aggregation of partners
-              but an aggregation of capacities, through which key high-impact
-              initiatives have been developed.
+            The CAC is not merely an aggregation of partners but an aggregation of capacities, through which we have developed key high-impact initiatives. We have drawn upon our experience of engagement with our large constituency of partners to put together a menu of initiatives for funders/investors to support that will save lives and livelihoods and enable vulnerable communities to ‘bounce forward’.
             </p>
             <a href="" className="btn btn-partner">
               FIND OUT MORE

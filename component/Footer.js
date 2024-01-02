@@ -33,7 +33,7 @@ function Footer() {
                 <li><Link href='https://covidactioncollab.org/vaxnow/' className='Menu_footer'>  Special Focus Areas (VaxNow)</Link> </li>
                  <li> <Link href='/shilp' className='Menu_footer'> Invest For Impact</Link></li>
                 <li> <Link href='/contact-us' className='Menu_footer'> Contact Us</Link></li>
-                <li><Image src="/images/linkedin.png" width={40}  height={40} alt='socila'></Image><Image src="/images/twitter.png" width={40}  height={40} alt='socila'></Image></li>
+                <li><Image src="/images/linkedin.png" width={30}  height={30} alt='socila'></Image><Image src="/images/twitter.png" width={30}  height={30} alt='socila'></Image></li>
                 </ul>
             </Col>
             <Col lg={3}>
@@ -50,7 +50,7 @@ function Footer() {
         <Container fluid>
         <Row>
           <Col className='bg-copy'>
-             <p className='p_copy'>Copyright ©2023 Catalyst Management Services Pvt. Ltd.</p>
+             <p className='p_copy'>Copyright ©2024 Catalyst Management Services Pvt. Ltd.</p>
           </Col>
         </Row>
         </Container>

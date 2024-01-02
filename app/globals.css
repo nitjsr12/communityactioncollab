@@ -363,7 +363,7 @@ p.p-text {
 }
 
 .Partner-With-Us{
-    background-image: url(https://communityactioncollab.org/wp-content/uploads/2023/07/Highcompressed_712800817.png);
+    background-image: url(/images/Highcompressed_712800817.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -440,7 +440,7 @@ p.p-partner {
     padding: 14px 30px!important;
 }
 .volunteer{
-    background-image: url(https://communityactioncollab.org/wp-content/uploads/2023/07/Highcompressed_1626601023.png);
+    background-image: url(/images/Volunteer_banner.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -491,7 +491,7 @@ p.p-partner {
   letter-spacing: .8px;
 }
 .Invest{
-    background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/10/DSC04543-as-Smart-Object-1.png);
+    background-image: url(/images/Invest_in_banner.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -592,7 +592,7 @@ p.p-footer-3 {
 }
 
 .banner-bg{
-    background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/11/Highcompressed_7022656-actions.jpeg);
+    background-image: url(/images/about_banner.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -724,7 +724,7 @@ p.p-role {
   font-weight: 600;
 }
 .action-banner-bg{
-  background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/11/Highcompressed_1598538415-actions.jpeg);
+  background-image: url(/images/action_1_banner.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -734,7 +734,7 @@ p.p-role {
 }
 .join-banner-bg{
 
-  background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/11/Join-Us-Banner-Comprossed.jpeg);
+  background-image: url(/images/Join-Us-Banner.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -851,6 +851,12 @@ p.card-text.p-card-economic {
   text-align: left!important;
 }
 
+h3.t-Anchoring {
+  color: #191919!important;
+  font-family: "Lato", Sans-serif!important;
+  font-size: 34px!important;
+  font-weight: 600!important;
+}
 .shilp-banner-bg{
   background-image: url(/images/banner_shilp.png);
   background-position: center center;
@@ -914,6 +920,9 @@ button.b-shilp a {
   font-size: 16px!important;
   line-height: 28px!important;
 }
+a.m-volunteer {
+  color: black!important;
+}
 
 .impact-banner-bg{
   background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/10/DSC04538-as-Smart-Object-1.png);
@@ -932,7 +941,7 @@ button.t-tab.btn.btn-primary {
   text-align: left;
 }
 .Partner-With-join{
-  background-image: url(https://communityactioncollab.org/wp-content/uploads/2023/07/Highcompressed_712800817.png);
+  background-image: url(/images/Partner-With-join.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
