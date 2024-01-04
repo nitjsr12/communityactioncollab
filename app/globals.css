@@ -924,22 +924,76 @@ a.m-volunteer {
   color: black!important;
 }
 
-.impact-banner-bg{
-  background-image: url(https://communityactioncollab.org/wp-content/uploads/2022/10/DSC04538-as-Smart-Object-1.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.resource-banner-bg{
+  background-image: url(/images/Resource-Hub-Banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+.resource-banner-bg-1{
+  background-image: linear-gradient(90deg,#1C7C9C 19%,#1C7C9C2B 42%);
   margin: 0;
-  padding: 0;
- 
+  height: 800px;
+
+}
+h1.t-resource {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 59px;
+  font-weight: bold;
+  line-height: 41px;
 }
 
+h1.t-known {
+  color: #1C7C9C;
+  font-family: "Lato", Sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 41px;
+}
+
+.t-card-know.card-title.h5 {
+  color: #1C7C9C;
+  font-family: "Lato", Sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 20px!important;
+}
+.img-know {
+  width: 340px!important;
+  height: 218px!important;
+}
+a.b-card-know {
+  font-family: "Lato", Sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  fill: #000000;
+  color: #000000;
+  background-color: #FFFFFF00;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #1C7C9C;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 20px!important;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.known-card {
+  width: 364px!important;
+}
 button.t-tab.btn.btn-primary {
   width: 300px;
   background: #e7f1f4;
   border: 0;
   text-align: left;
 }
+
 .Partner-With-join{
   background-image: url(/images/Partner-With-join.png);
   background-position: center center;
@@ -1250,7 +1304,68 @@ img.banner_image {
    margin-top: 0px!important; 
    margin-left: 0px!important; 
 }
+
+.resource-banner-bg-1 {
+  background-image: linear-gradient(90deg,#1C7C9C 19%,#1C7C9C2B 42%);
+  margin: 0;
+  height: 182px!important;
+}
+h1.t-resource {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 41px;
+  padding-top: 50px;
+  padding-left: 20px!important;
+}
+h1.t-known {
+  color: #1C7C9C;
+  font-family: "Lato", Sans-serif;
+  font-size: 28px!important;
+  font-weight: bold;
+  line-height: 41px;
+}
+.card-list {
+  display: flex;
+  flex-direction: column!important;
+}
+
+.img-know {
+  width: 237px!important;
+  height: 161px!important;
+}
+.known-card {
+  width: 208px!important;
+}
+
+.t-card-know.card-title.h5 {
+  color: #1C7C9C;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px!important;
+}
+a.b-card-know {
+  font-family: "Lato", Sans-serif;
+  font-size: 12px!important;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  fill: #000000;
+  color: #000000;
+  background-color: #FFFFFF00;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #1C7C9C;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 20px!important;
+  padding: 6px 15px;
+  text-decoration: none;
+}
+  
 h1.post_title {
+
   color: #FFFFFF;
   font-family: "Lato", Sans-serif;
   font-size: 28px!important;

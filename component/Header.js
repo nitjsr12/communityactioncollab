@@ -34,9 +34,9 @@ const Header = () => {
                 <NavDropdown.Item href="https://www.precisionhealth.in/" target='_blank'>Precision Health</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Resource Hub" id="basic-nav-dropdown" className="me-4">
-                <NavDropdown.Item href="#action/1">Knowledgebase</NavDropdown.Item>
+                <NavDropdown.Item href="/resource-hub">Knowledgebase</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/2">Media</NavDropdown.Item>
+                <NavDropdown.Item href="#media">Media</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/join-us" className="me-4">Join Us</Nav.Link>
               <Nav.Link href="/contact-us" className="me-4">Contact Us</Nav.Link>
@@ -66,9 +66,9 @@ const Header = () => {
             <NavDropdown.Item href="https://www.precisionhealth.in/" className='m_menu_item' onClick={handleOffcanvasClose}>Precision Health</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Resource Hub" className='m_menu_item'  id="offcanvas-nav-dropdown">
-              <NavDropdown.Item href="/shilp" className='m_menu_item' onClick={handleOffcanvasClose}>Knowledgebase</NavDropdown.Item>
+              <NavDropdown.Item href="/resource-hub" className='m_menu_item' onClick={handleOffcanvasClose}>Knowledgebase</NavDropdown.Item>
            
-              <NavDropdown.Item href="#action/2" className='m_menu_item' onClick={handleOffcanvasClose}>Media</NavDropdown.Item>
+              <NavDropdown.Item href="#media" className='m_menu_item' onClick={handleOffcanvasClose}>Media</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/join-us" className='m_menu_item' onClick={handleOffcanvasClose}>Join Us</Nav.Link>
             <Nav.Link href="/contact-us" className='m_menu_item' onClick={handleOffcanvasClose}>Contact Us</Nav.Link>

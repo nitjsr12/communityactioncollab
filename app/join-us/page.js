@@ -15,7 +15,6 @@ function Join() {
     <Header/>
     <Banner/>
     <Footer/>
-
     </>
   )
 }
