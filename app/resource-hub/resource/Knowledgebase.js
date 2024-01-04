@@ -95,7 +95,7 @@ function Knowledgebase() {
       <Card className="mx-5 border-0 text-center known-card">
         <Card.Img variant="top" className='img-know' src="/images/Img-07.png" />
         <Card.Body>
-          <Card.Title className='t-card-know'> COVIDActionCollab's  OnwardTogether Celebrates The Impact and Power of Collaborative Efforts</Card.Title>
+          <Card.Title className='t-card-know'> COVIDActionCollabs  #OnwardTogether Celebrates The Impact and Power of Collaborative Efforts</Card.Title>
           <Link href="https://www.aninews.in/news/business/business/covidactioncollabs-onwardtogether-celebrates-the-impact-and-power-of-collaborative-efforts20220912183129/" target='_blank' className='b-card-know'>Know More </Link>
         </Card.Body>
       </Card>
@@ -103,7 +103,7 @@ function Knowledgebase() {
       <Card  className="mx-5 border-0 text-center known-card">
         <Card.Img variant="top" className='img-know' src="/images/Img-10.png" />
         <Card.Body>
-          <Card.Title className='t-card-know'>Onward Together’: A photo exhibition that highlights Covid-19 pandemic’s ‘disparities and prejudice’</Card.Title>
+          <Card.Title className='t-card-know'>Onward Together: A photo exhibition that highlights Covid-19 pandemic’s ‘disparities and prejudice’</Card.Title>
           <Link href="https://indianexpress.com/article/lifestyle/art-and-culture/onward-together-photo-exhibition-pandemic-disparities-prejudice-marginalised-communities-8126601/" target='_blank'className='b-card-know' >Know More </Link>
         </Card.Body>
       </Card>
