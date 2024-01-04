@@ -95,7 +95,7 @@ function Knowledgebase() {
       <Card className="mx-5 border-0 text-center known-card">
         <Card.Img variant="top" className='img-know' src="/images/Img-07.png" />
         <Card.Body>
-          <Card.Title className='t-card-know'>COVIDActionCollab's #OnwardTogether Celebrates The Impact and Power of Collaborative Efforts</Card.Title>
+          <Card.Title className='t-card-know'> COVIDActionCollab's  OnwardTogether Celebrates The Impact and Power of Collaborative Efforts</Card.Title>
           <Link href="https://www.aninews.in/news/business/business/covidactioncollabs-onwardtogether-celebrates-the-impact-and-power-of-collaborative-efforts20220912183129/" target='_blank' className='b-card-know'>Know More </Link>
         </Card.Body>
       </Card>
