@@ -1,10 +1,10 @@
+"use client"
 import React from "react";
-import { Container,Row,Col } from "react-bootstrap";
-import Image from "next/image";
+import { Container,Row,Col,Image } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 
-const CardList = () => {
+const Shilpdetails = () => {
   return (
     <>
       <div className="container mt-4 ">
@@ -12,7 +12,7 @@ const CardList = () => {
           {/* Card 1 */}
           <div className="col">
             <div className="card card-1  d-flex flex-row ">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-analysing-1567429.svg"
                 className="card-img-top Baseline"
                 alt="Card 1"
@@ -30,7 +30,7 @@ const CardList = () => {
           {/* Card 2 */}
           <div className="col">
             <div className="card card-1  d-flex flex-row ">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-planning-2941618.svg"
                 className="card-img-top Baseline"
                 alt="Card 2"
@@ -47,7 +47,7 @@ const CardList = () => {
           {/* Card 3 */}
           <div className="col">
             <div className="card card-1 d-flex flex-row ">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-leadership-5167171.svg"
                 className="card-img-top Baseline"
                 alt="Card 3"
@@ -67,7 +67,7 @@ const CardList = () => {
           {/* Card 1 */}
           <div className="col">
             <div className="card card-1  d-flex flex-row ">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-meeting-1949946.svg"
                 className="card-img-top Baseline"
                 alt="Card 1"
@@ -85,7 +85,7 @@ const CardList = () => {
           {/* Card 2 */}
           <div className="col">
             <div className="card card-1  d-flex flex-row">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-connection-1597758.svg"
                 className="card-img-top Baseline"
                 alt="Card 2"
@@ -101,7 +101,7 @@ const CardList = () => {
           {/* Card 3 */}
           <div className="col">
             <div className="card card-1 d-flex flex-row ">
-              <img
+              <Image
                 src="https://uat.communityactioncollab.org/wp-content/uploads/2022/12/noun-resources-4347499-1.svg"
                 className="card-img-top Baseline"
                 alt="Card 3"
@@ -176,4 +176,4 @@ const CardList = () => {
   );
 };
 
-export default CardList;
+export default Shilpdetails;

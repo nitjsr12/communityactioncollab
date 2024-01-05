@@ -1,8 +1,8 @@
 import Header from '@/component/Header';
 import React from 'react';
 import Footer from '@/component/Footer';
-import Banner from './resource/Banner';
-import Knowledgebase from './resource/Knowledgebase';
+import Banner from './Resource/Banner';
+import Knowledgebase from './Resource/Knowledgebase';
 
 
 export const metadata = {

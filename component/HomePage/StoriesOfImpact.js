@@ -80,9 +80,9 @@ function StoriesOfImpact() {
                 alt="Card 1"
               />
               <div className="card-body">
-                <h3 className="card-text p-card-shlip">
+                <h5 className="card-text t-card-shlip">
                 {item.title.rendered}
-                </h3>
+                </h5>
               </div>
             </div>
             </Link>
