@@ -1,6 +1,6 @@
 import Header from '@/component/Header';
 import React from 'react';
-import Footer from '@/component/Footer';
+import Footer from '@/component/Footer'
 import Banner from './Resource/Banner';
 import Knowledgebase from './Resource/Knowledgebase';
 
@@ -14,8 +14,8 @@ function page() {
   return (
     <>
       <Header/>
-       <Banner/>
-       <Knowledgebase/>
+      <Banner/>
+      <Knowledgebase/>
       <Footer/>
     </>
   )
