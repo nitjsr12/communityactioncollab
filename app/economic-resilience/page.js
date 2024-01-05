@@ -9,8 +9,8 @@ import PartnersAnchoring from './EconomicResilience/PartnersAnchoring';
 
 
 export const metadata = {
-    title: 'Supporting last mile to overcome humanitarian crises',
-    description: 'The impact that we have facilitated through our partnerships provided relief and helped vulnerable communities, front line workers and healthcare providers bounce back from humanitarian crises. Read more.',
+    title: 'Empowering communities through economic resilience',
+    description: 'The Economic Resilience Impact Canvas builds the resilience of vulnerable populations by enabling them to withstand any humanitarian crisis',
   }
 
 function Economic_Resilience() {
