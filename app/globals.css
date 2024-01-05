@@ -93,6 +93,12 @@ nav.cac_main {
   
 }
 
+.home-blog-img{
+  width: 180px!important;
+  height: 140px!important;
+
+}
+
 .blog_post_content.container-fluid {
   background-color: #e7f1f4;
 }
@@ -966,6 +972,10 @@ h1.t-known {
   width: 340px!important;
   height: 218px!important;
 }
+.Baseline{
+
+}
+
 a.b-card-know {
   font-family: "Lato", Sans-serif;
   font-size: 15px;
@@ -1086,6 +1096,11 @@ label.label-style {
   background: #d8e9f2!important;
   border-bottom: 15px solid!important;
   border-image: linear-gradient( -90deg, #FD9C00,#1C7C9C, #1D9AC4 ) 1!important;
+}
+.card-blog{
+  border: 0!important;
+  background: #d8e9f2!important;
+
 }
 .p-card-shlip{
   color: #000000;

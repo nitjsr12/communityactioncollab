@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Container, Image, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -71,15 +72,20 @@ function StoriesOfImpact() {
         >
           {data.map((item) => (
             <div key={item.id}>
-
-                <Image
-                      src={
-                        item["_embedded"]["wp:featuredmedia"]["0"]["source_url"]
-                      }
-                      className="card-img-top  left-aligned-image"
-                      alt="" 
-                    />
-              <p>{item.title.rendered}</p>
+            <Link href={`/${item.slug}`}>
+            <div className="card card-blog  d-flex flex-row mx-4 ">
+              <Image
+                src={item["_embedded"]["wp:featuredmedia"]["0"]["source_url"]}
+                className="card-img-top home-blog-img"
+                alt="Card 1"
+              />
+              <div className="card-body">
+                <h3 className="card-text p-card-shlip">
+                {item.title.rendered}
+                </h3>
+              </div>
+            </div>
+            </Link>
             </div>
           ))}
         </Carousel>
