@@ -72,7 +72,7 @@ function StoriesOfImpact() {
         >
           {data.map((item) => (
             <div key={item.id}>
-            <Link href={`/${item.slug}`}>
+            <Link href={`/${item.slug}`} className="list-style">
             <div className="card card-blog  d-flex flex-row mx-4 ">
               <Image
                 src={item["_embedded"]["wp:featuredmedia"]["0"]["source_url"]}

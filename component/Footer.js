@@ -17,13 +17,13 @@ function Footer() {
             <Col className='' >
               <h3 className='t-footer-1'>Sitemap</h3>
               <ul className='footer-1'>
-                <li><Link href='/about' className='Menu_footer'> About Us</Link></li>
-                <li><Link href='/about' className='Menu_footer'>Our Mission </Link>
+                <li><Link href='/about-us' className='Menu_footer'> About Us</Link></li>
+                <li><Link href='/about-us' className='Menu_footer'>Our Mission </Link>
                 </li>
-                <li><Link href='/about' className='Menu_footer'>What Is Community Action Collab?</Link> </li>
-                <li> <Link href='/about' className='Menu_footer'>Media</Link></li>
+                <li><Link href='/about-us' className='Menu_footer'>What Is Community Action Collab?</Link> </li>
+                <li> <Link href='/abou-us' className='Menu_footer'>Media</Link></li>
                 <li> <Link href='/impact' className='Menu_footer'>Our Impact</Link></li>
-                <li><Link href='/action' className='Menu_footer'> Our Action</Link> </li>
+                <li><Link href='/our-action' className='Menu_footer'> Our Action</Link> </li>
               </ul>
             </Col>
             <Col>

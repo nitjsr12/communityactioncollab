@@ -21,8 +21,8 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav  " className='cac_nav_item'>
             <Nav className="ms-auto ">
               <Nav.Link href="/" className="me-4">Home</Nav.Link>
-              <Nav.Link href="/about" className="me-4">About Us</Nav.Link>
-              <Nav.Link href="/action" className="me-4">Our Action</Nav.Link>
+              <Nav.Link href="/about-us" className="me-4">About Us</Nav.Link>
+              <Nav.Link href="/our-action" className="me-4">Our Action</Nav.Link>
               <Nav.Link href="/impact" className="me-4">Our Impact</Nav.Link>
               <NavDropdown title="Our Initiatives" id="basic-nav-dropdown" className="me-4">
                 <NavDropdown.Item href="/shilp">SHILP</NavDropdown.Item>
@@ -56,12 +56,12 @@ const Header = () => {
         <Offcanvas.Body>
           <Nav className="flex-column ">
             <Nav.Link href="/" className='m_menu_item' onClick={handleOffcanvasClose}>Home</Nav.Link>
-            <Nav.Link href="/about" className='m_menu_item' onClick={handleOffcanvasClose}>About Us</Nav.Link>
-            <Nav.Link href="/action" className='m_menu_item' onClick={handleOffcanvasClose}>Our Action</Nav.Link>
+            <Nav.Link href="/about-us" className='m_menu_item' onClick={handleOffcanvasClose}>About Us</Nav.Link>
+            <Nav.Link href="/our-action" className='m_menu_item' onClick={handleOffcanvasClose}>Our Action</Nav.Link>
             <Nav.Link href="/impact" className='m_menu_item' onClick={handleOffcanvasClose}>Our Impact</Nav.Link>
             <NavDropdown title="Our Initiatives" className='m_menu_dropdown' id="offcanvas-nav-dropdown">
               <NavDropdown.Item href="/shilp" className='m_menu_' onClick={handleOffcanvasClose}>SHILP</NavDropdown.Item>
-              <NavDropdown.Item href="#action/2" className='m_menu_item'  onClick={handleOffcanvasClose}>Economic resilience</NavDropdown.Item>
+              <NavDropdown.Item href="/economic-resilience" className='m_menu_item'  onClick={handleOffcanvasClose}>Economic resilience</NavDropdown.Item>
               <NavDropdown.Item href="https://covidactioncollab.org/vaxnow/" className='m_menu_item' onClick={handleOffcanvasClose}>VaxNow</NavDropdown.Item>
             <NavDropdown.Item href="https://www.precisionhealth.in/" className='m_menu_item' onClick={handleOffcanvasClose}>Precision Health</NavDropdown.Item>
             </NavDropdown>

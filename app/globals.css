@@ -98,6 +98,16 @@ nav.cac_main {
   height: 140px!important;
 
 }
+h5.card-text.t-card-shlip {
+  color: #000000;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+}
+a.card-text.t-card-shlip {
+  text-decoration: none!impor;
+}
 
 .blog_post_content.container-fluid {
   background-color: #e7f1f4;
@@ -415,6 +425,16 @@ p.p-partner {
   height: 100%;
    background-color: transparent;
     
+}
+a.link-unstyled {
+  text-decoration: none!important;
+  color: #000000;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+a.list-style {
+  text-decoration: none!important;
 }
 
 .content {
@@ -1100,6 +1120,7 @@ label.label-style {
 .card-blog{
   border: 0!important;
   background: #d8e9f2!important;
+  height:140px!important;
 
 }
 .p-card-shlip{

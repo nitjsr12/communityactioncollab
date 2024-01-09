@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav, Button, Image } from "react-bootstrap";
 
 const Blog = () => {
   const [data, setData] = useState([]);
@@ -84,9 +84,9 @@ const Blog = () => {
           <Row>
             {data.map((item) => (
               <Col key={item.id} sm={4}>
-                <Link href={`/${item.slug}`}>
+                <Link href={`/${item.slug}`} className="link-unstyled" >
                   <div className="card blog_card">
-                    <img
+                    <Image
                       src={
                         item["_embedded"]["wp:featuredmedia"]["0"]["source_url"]
                       }
